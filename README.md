@@ -6,7 +6,7 @@
 
 Un scanner de ports TCP de type *connect scan*, sur le principe de `nmap -sT`. Il ouvre des centaines de connexions non bloquantes en parallèle et les surveille avec `poll()`.
 
-> ⚠️ À utiliser uniquement sur vos propres machines, ou sur un réseau pour lequel vous avez une autorisation écrite.
+> **Attention :** À utiliser uniquement sur vos propres machines, ou sur un réseau pour lequel vous avez une autorisation écrite.
 
 ## Fonctionnalités
 
